@@ -89,6 +89,9 @@ img {
   flex-direction: column;
   overflow: hidden;
 }
+.card_image {
+  height: auto;
+}
 
 .card_content {
   padding: 1rem;
