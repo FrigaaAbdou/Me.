@@ -320,7 +320,7 @@
                     <div class="col-lg-6 pr-lg-5">
                         <div class="contactdetail">
                             <h3 class="contactdetail__title mb-4">
-                                Let's get intouch
+                                Let's get in touch
                             </h3>
                             <p>"Fill out the form and press the button to contact me."</p> 
                             <ul class="contactdetail__list">
@@ -361,27 +361,25 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="contactform">
-                            <!-- form contact -->
-                            <form action="#" id="formcontact" class="contactform">
-                                <!-- input contact wrap -->
+                           <!-- Form contact -->
+                            <form action="https://formspree.io/f/xovvvrzp" method="POST" id="formcontact" class="contactform">
                                 <div class="contactform__form-group row">
                                     <div class="col-lg-12 pt-4">
-                                        <label for="yourname" class="pb-2 ">Input your name</label>
-                                        <input type="text" id="yourname" class="contactform__inputtext input-control " placeholder="Your name" name="name" data-name="name" />
+                                        <label for="yourname" class="pb-2">Input your name</label>
+                                        <input type="text" id="yourname" class="contactform__inputtext input-control" placeholder="Your name" name="name" required />
                                     </div>
-                                    <!-- input contact wrap -->
                                     <div class="col-lg-12 pt-4">
-                                        <label for="yourmail" class="pb-2 ">Input your mail</label>
-                                        <input type="email" id="yourmail" class="contactform__inputtext input-control " placeholder="Your email address" name="email" data-name="email" />
+                                        <label for="yourmail" class="pb-2">Input your mail</label>
+                                        <input type="email" id="yourmail" class="contactform__inputtext input-control" placeholder="Your email address" name="email" required />
                                     </div>
-                                    <!-- input contact wrap -->
                                     <div class="col-lg-12 pt-4">
                                         <label for="comment" class="pb-2">Input your message</label>
-                                        <textarea class="contactform__comentarea input-control" id="comment" placeholder="Your comment" name="comment" data-name="comment"></textarea>
-                                        <button id="submitbutton" class="btn mt-5  contactform__submitbuton linkbtn mt-5 mb-3" type="submit">Hit me up</button>
+                                        <textarea id="comment" class="contactform__comentarea input-control" placeholder="Your comment" name="message" required></textarea>
+                                        <button id="submitbutton" class="btn mt-5 contactform__submitbuton linkbtn mt-5 mb-3" type="submit">Hit me up</button>
                                     </div>
                                 </div>
                             </form>
+
                         </div>
                     </div>
                 </div>
