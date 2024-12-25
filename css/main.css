@@ -55,6 +55,7 @@ Filename      : main.css
     
     * {
         -webkit-font-smoothing: antialiased;
+            scroll-behavior: smooth;
     }
     
     body {
