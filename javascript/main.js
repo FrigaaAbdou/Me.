@@ -1,12 +1,4 @@
-/*
-* ----------------------------------------------------------------------------------------
-Author        : Rama Hardian Sidik
-Template Name : Freeman - Free Multipurpose Personal One Page Html Template
-Version       : 1.0
-Filename      : main.js
-* ----------------------------------------------------------------------------------------
-* ----------------------------------------------------------------------------------------
-*/
+
 const freemaninit = (function() {
     "use strict";
     // variable 
